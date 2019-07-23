@@ -1,0 +1,16 @@
+*, body {
+    margin: 0; 
+    padding: 0; 
+
+}
+
+
+ .main-menu{
+     display: grid; 
+     grid-template-areas: "ac ac del"
+  
+ }
+
+ .ac {
+    grid-area: ac;
+ }
