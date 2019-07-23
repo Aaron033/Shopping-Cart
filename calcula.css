@@ -5,12 +5,16 @@
 }
 
 
- .main-menu{
+ .content{
      display: grid; 
      grid-template-areas: "ac ac del"
+                           "on tw th fo  "
   
  }
 
  .ac {
     grid-area: ac;
+ }
+ .on{
+grid-area:on
  }
