@@ -8,6 +8,10 @@ class Automobile {
     }
 
     displayAuto(){
-        this.make
+       console.log( this.make)
+       `hello there ${this.year}`
     }
 }
+
+let chevy = new Automobile("dodge", "ram", "2012", "14000");
+chevy.displayAuto();
