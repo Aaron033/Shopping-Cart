@@ -1,20 +1,205 @@
 *, body {
+
     margin: 0; 
+
     padding: 0; 
 
 }
 
 
- .content{
-     display: grid; 
-     grid-template-areas: "ac ac del"
-                           "on tw th fo  "
-  
- }
 
- .ac {
+body{
+
+    background: #314755;  /* fallback for old browsers */
+
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+}
+
+
+
+.main-title{ 
+
+    color:lightblue; 
+
+    font-size: 7em; 
+
+    text-align: center;
+
+    margin-top: 10%;
+
+}
+
+#main-menu{
+
+    margin: auto auto;
+
+    display: grid; 
+
+grid-gap: 2px;
+
+ grid-template-areas:
+
+ "re re  re re"
+
+  "ac ac ac del"
+
+  "on tw th di"
+
+  "fr fi si mu"
+
+  "se ei ni ad"
+
+  "po ze eq eq";
+
+  width: 286px;
+
+  background-color:  lightcyan;
+
+  
+
+}
+
+
+
+
+
+#main-menu li {
+
+    padding: 10px;
+
+    width: 50px; 
+
+    list-style: none;
+
+    background-color: lightskyblue;
+
+    text-align: center;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    font-family: 'Lucida Sans';
+
+    
+
+}
+
+.main-menu li:hover{
+
+    background-color: lightcyan;
+
+}
+
+
+
+.re{
+
+    grid-area: re;
+
+    background-color: lightcoral !important;
+
+    width: auto !important;
+
+}
+
+
+
+.le {
+
+text-align: right !important;
+
+}
+
+.ac { 
+
     grid-area: ac;
- }
- .on{
-grid-area:on
- }
+
+    width: auto !important;
+
+    
+
+}
+
+.eq {
+
+    grid-area: eq;
+
+    width: auto !important;
+
+}
+
+.on{
+
+    grid-area: on;
+
+}
+
+.tw{
+
+    grid-area: tw;
+
+}
+
+
+
+
+
+.th{
+
+    grid-area: th;
+
+}
+
+
+
+
+
+.fr{
+
+    grid-area: fr;
+
+}
+
+
+
+.fi{
+
+    grid-area: fi;
+
+}
+
+
+
+.si{
+
+    grid-area: si;
+
+}
+
+.se{
+
+    grid-area: se;
+
+}
+
+
+
+.ei{
+
+    grid-area: ei;
+
+}
+
+
+
+.ni{
+
+    grid-area: ni;
+
+}
