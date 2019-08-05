@@ -1,5 +1,13 @@
 
+class Automobile {
+    constructor(make, model, year, price){
+        this.make = make
+        this.model = model 
+        this.year = year
+        this.price = price
+    }
 
- let zero = document.getElementById("ze").addEventListener("click", function(){
-     console.log("yeii")
- })
+    displayAuto(){
+        this.make
+    }
+}
