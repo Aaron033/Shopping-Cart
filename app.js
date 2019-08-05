@@ -9,7 +9,7 @@ class Automobile {
 
     displayAuto(){
        console.log( this.make)
-       `hello there ${this.year}`
+       console.log( "hello customer, you picked " + this.make + " " + this.model + " " + this.year +  " for $" + this.price )
     }
 }
 
