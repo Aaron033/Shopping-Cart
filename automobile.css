@@ -1,0 +1,15 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.selection {
+    display: flex; 
+
+}
+
+.selection > div {
+background-color: lightskyblue;
+color: blue;
+}
