@@ -6,10 +6,9 @@
 
 .selection {
     display: flex; 
-
+    flex-direction: row;
 }
 
-.selection > div {
-background-color: lightskyblue;
-color: blue;
+.selection > div > li {
+list-style: none;
 }
