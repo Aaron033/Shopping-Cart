@@ -25,3 +25,13 @@ list-style: none;
 .selectionMenu  li a {
     text-decoration: none;
 }
+
+ .footer {
+    
+    background: #272727; 
+    color: #fff;
+} 
+.footer-menu { 
+    display: flex; 
+    flex-direction: row;
+}
