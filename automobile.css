@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
-.selection {
+header {
+    font-size: 3rem;
+    text-align: center;
+}
+.selectionMenu {
     display: flex; 
     flex-direction: row;
+    
 }
 
-.selection > div > li {
+.selectionMenu  li {
 list-style: none;
+}
+
+.selectionMenu  li a {
+    text-decoration: none;
 }
